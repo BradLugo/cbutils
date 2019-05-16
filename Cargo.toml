@@ -1,0 +1,16 @@
+[package]
+name = "cputils"
+version = "0.1.0"
+authors = ["Brad Lugo <brad@bradlugo.com>"]
+edition = "2018"
+
+[[bin]]
+name = "cbcopy"
+path = "src/cbcopy/main.rs"
+
+[[bin]]
+name = "cbpaste"
+path = "src/cbpaste/main.rs"
+
+[dependencies]
+clap = "2.32.0"
